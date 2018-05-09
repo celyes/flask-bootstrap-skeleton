@@ -5,9 +5,9 @@ Repository link : [Click here](https://github.com/celyes/flaskTemplate)
 
 Python Flask and Bootstrap 4 basic template
 
-NOTE: This app is running on debug mode by default ! 
-
 Star and fork this repository if you like this small project :) 
+
+NOTE: This app is running on debug mode by default ! 
 
 [Facebook](https://fb.com/celyes01)
 
