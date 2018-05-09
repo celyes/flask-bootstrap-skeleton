@@ -1,0 +1,25 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+	<div class="container">
+		<br>
+		<h1>My works</h1>
+		<br>
+		<div class="row">		
+			{% for work in works %}
+			<div class="col-sm-4">
+				<div class="card">
+				<div class="card-body">
+					<h5 class="card-title">{{ work.title }}</h5>
+					<p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+					<a href="work/{{ work.id }}" class="btn btn-primary">Read</a>
+				</div>
+			</div>
+			</div>		
+			{% endfor %}
+		</div>
+
+	</div>
+
+{% endblock %}
